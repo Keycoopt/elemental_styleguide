@@ -2,7 +2,93 @@
  * Surcharger ici le style d'elemental_styleguide
  * avec celui d'Operator
  */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,300&family=Quicksand:wght@400;700&display=swap');
 
 body {
-  background-color: pink;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #3F3F3F;
+  line-height: 24px;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #ffffff;
+  background: #006CFA;
+}
+
+::selection {
+  color: #ffffff;
+  background: #006CFA;
+}
+
+main {
+  width: auto;
+}
+
+nav {
+  background: #000000;
+}
+
+nav a {
+  color: #ffffff;
+  border-bottom: 0px;
+}
+
+nav a:hover {
+  border-bottom: 0px;
+  color: #ffffff;
+}
+
+nav ul {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+nav > ul > li {
+  margin: 1.5em 0 0;
+  padding: 1.5em 0 0;
+  box-shadow: 0 -1px 0 0 #dfe3e63b;
+}
+
+nav > ul > ul {
+  margin: 1em 0;
+}
+
+nav > ul > li > ul > li {
+  margin: .5em 0;
+  opacity: 0.7;
+}
+
+a {
+  color: #006CFA;
+  border-bottom: 2px solid #006CFA;
+}
+
+a:hover {
+    border-color: #054ADA;
+    color: #054ADA;
+}
+
+code {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+h1 {
+  border-bottom: 2px solid #cacaca;
+  color: #000000;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: -0.21px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  color: #000000;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #000000;
 }
