@@ -43,6 +43,10 @@ nav ul {
   font-weight: bold;
 }
 
+nav > ul > li:first-child {
+  margin-top: 0;
+}
+
 nav > ul > li {
   margin: 1.5em 0 0;
   padding: 1.5em 0 0;
@@ -91,4 +95,8 @@ h2 {
 
 h3 {
   color: #000000;
+}
+
+.logo {
+  margin-top: 1rem;
 }
