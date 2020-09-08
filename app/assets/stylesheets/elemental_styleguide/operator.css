@@ -100,3 +100,7 @@ h3 {
 .logo {
   margin-top: 1rem;
 }
+
+.grid-container {
+  grid-template-columns: 240px auto;
+}
