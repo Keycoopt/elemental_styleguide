@@ -104,3 +104,7 @@ h3 {
 .grid-container {
   grid-template-columns: 240px auto;
 }
+
+pre {
+  overflow: scroll;
+}
