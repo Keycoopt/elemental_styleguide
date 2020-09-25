@@ -4,11 +4,16 @@
  */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,300&family=Quicksand:wght@400;700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   color: #3F3F3F;
   line-height: 24px;
 }
+
 
 ::-moz-selection { /* Code for Firefox */
   color: #ffffff;
@@ -21,7 +26,9 @@ body {
 }
 
 main {
-  width: auto;
+  max-width: 1199px;
+  padding: 40px;
+  width: 100%;
 }
 
 nav {
