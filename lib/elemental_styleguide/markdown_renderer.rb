@@ -17,7 +17,7 @@ module ElementalStyleguide
     def example(code, options)
       <<-EXAMPLE
         <div class="example">
-          <iframe src="/styleguide/example?example=#{Base64.urlsafe_encode64(code)}"
+          <iframe src="/styleguide/example?example=#{Base64.urlsafe_encode64(code.force_encoding("utf-8"))}"
                   width="#{options['width'] || '100%'}"
                   height="#{options['height'] || 'auto'}"></iframe>
         </div>
