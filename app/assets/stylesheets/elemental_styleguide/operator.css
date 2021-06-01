@@ -27,12 +27,13 @@ body {
 
 main {
   max-width: 1199px;
-  padding: 40px;
+  padding: 30px 20px;
   width: 100%;
 }
 
 nav {
   background: #000000;
+  padding: 10px 20px 40px 20px;
 }
 
 nav a {
@@ -79,6 +80,10 @@ a:hover {
     color: #054ADA;
 }
 
+.exemple {
+  padding: 20px;
+}
+
 code {
   font-family: 'IBM Plex Mono', monospace;
 }
@@ -114,4 +119,20 @@ h3 {
 
 pre {
   overflow: scroll;
+}
+
+// grid system
+
+div[class^="bx--col"]{
+  border: 1px solid black;
+  .bx--row {
+    *[class^="bx--col-"]{
+      border: 1px solid blue;
+      .bx--row {
+        *[class^="bx--col-"]{
+          border: 1px solid green;
+        }
+      }
+    }
+  }
 }
