@@ -121,18 +121,9 @@ pre {
   overflow: scroll;
 }
 
-// grid system
+/* grid system
+affiche des bordures pour visualiser les elements */
 
 div[class^="bx--col"]{
-  border: 1px solid black;
-  .bx--row {
-    *[class^="bx--col-"]{
-      border: 1px solid blue;
-      .bx--row {
-        *[class^="bx--col-"]{
-          border: 1px solid green;
-        }
-      }
-    }
-  }
+   border: 1px solid black;
 }
